@@ -7,7 +7,7 @@
         
             <div class="row bg-slider-baner ml-0">
 
-                <?php echo do_shortcode("[twabc-carousel]"); ?>
+                <?php echo do_shortcode("[metaslider id='78']"); ?>
 
             </div>
             

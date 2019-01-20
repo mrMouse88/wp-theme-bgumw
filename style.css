@@ -131,9 +131,8 @@ ul#menu-frontpagemenu > li > a{
 
 @media only screen and (max-width: 1200px) {
 
-    .carousel-item > img, .carousel-item{
-        width: 720px;
-        height: 260px;
+    div.bg-slider{
+        max-width: 720px !important;
     }
 
     .bg-sidebar-button > a > img{
@@ -153,10 +152,10 @@ ul#menu-frontpagemenu > li > a{
 
 @media only screen and (max-width: 992px) {
 
-    .carousel-item > img, .carousel-item{
-        width: 540px;
-        height: 195px;
+    div.bg-slider{
+        max-width: 540px !important;
     }
+    
     ul#menu-mainmenu > li > a{
         font-size: 0.9em;
     }
@@ -199,15 +198,14 @@ ul#menu-frontpagemenu > li > a{
         text-align: center;
     }
     
-.carousel-item > img, .carousel-item{
-        max-width: 540px;
-        max-height: 195px;
+    div.bg-slider{
+        max-width: 540px !important;
     }
 }
 
 @media only screen and (max-width: 633px) {
-    .carousel-item > img, .carousel-item{
-        width: 100%;
-        height: auto;
+    div.bg-slider{
+        max-width: none;
+        padding-right: 15px;
     }
 }
