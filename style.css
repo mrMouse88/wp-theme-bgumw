@@ -8,6 +8,7 @@ Author: AsygnataIT
 body{
     background: #eeeeee;
     font-family: "Signika Negative";
+    color: gray;
 }
 
 /* ------------ Header ------------ */
@@ -125,9 +126,72 @@ ul#menu-frontpagemenu > li > a{
     background-color: #a21b21;
 }
 
+#bg-tiles-box{
+    margin: 0px -5px 0px -5px;
+}
+
+.bg-tile-outer{
+    margin-top: 10px;
+    padding: 0 5px !important;
+}
+
+.bg-tile{
+    /*border: 1px solid black;*/
+    /*margin-right: 10px;*/
+    /*background-color: greenyellow;*/
+    padding: 0;
+    /*height: 100px;*/
+    border: .1rem solid #5d6769;
+    border-radius: .1rem;
+    /*background-color: #e0e2e3;*/
+}
+
+.bg-tile-title{
+    background-color: #5d6769;
+    height: 2em;
+    /*    display: table-cell;*/
+    vertical-align: middle;
+    color: #ffffff;
+    padding-left: 1em;
+    line-height: 2em;
+}
+
+.bg-tile > img{
+    width: 100%;
+    height: auto;
+}
+
+.bg-tile-content{
+    padding: .5em;
+    
+}
+
+.bg-tile-content > ul{
+    padding-left: 1em;
+    padding-top: .5em;
+    margin-bottom: 0;
+}
+
+.bg-tile-content > ul > li{
+    list-style-type: none;
+}
+
+li.more-link{
+    text-align: right;
+}
 
 
+/* ------------ Footer ------------ */
 
+.bg-footer{
+    width: auto;
+    margin-top: 2em;
+    background-color: #e0e2e3;
+    /* color: #ffffff; */
+    padding: .5em;
+    text-align: center;
+    font-size: .8em;
+}
 
 @media only screen and (max-width: 1200px) {
 
