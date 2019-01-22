@@ -39,7 +39,7 @@ ul#menu-topmenu > li > a{
 }
 
 .bg-mainmenu{
-    background: #a21b21;
+    background: #e0e2e3;
     max-height: 40px;
 }
 
@@ -56,17 +56,17 @@ ul#menu-mainmenu > li{
 ul#menu-mainmenu > li > a{
     padding-left: 0;
     padding-right: 0;
-    color: #ffe2bc;
+    color: #a21b21;
     text-transform: uppercase;
 }
 
 ul#menu-mainmenu > li > ul{
-    background: #a21b21;
+    background: #e0e2e3;
     border: none;
 }
 
 ul#menu-mainmenu > li > ul > li > a{
-    color: #ffe2bc;
+    color: #a21b21;
 }
 
 ul#menu-mainmenu > li > ul > li > a:hover{
@@ -103,7 +103,7 @@ ul#menu-mainmenu > li > ul > li > a:hover{
 }
 
 .bg-front-page-menu{
-    background: #ffe2bc;
+    background: #e0e2e3;
     margin-right: 0;
     margin-top: 10px;
 }
@@ -114,7 +114,7 @@ ul#menu-frontpagemenu > li{
 }
 
 ul#menu-frontpagemenu > li > a{
-    color: #a21b21;
+    color: #eb1c21;
     text-transform: uppercase;
     padding: 3px 0px;
 }
