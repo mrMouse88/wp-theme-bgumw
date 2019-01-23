@@ -68,7 +68,7 @@
                     
                     <div class="bg-tile">
                         <div class="bg-tile-title">Browzine</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-5.png' ?>" />
+                        <img src="<?php echo get_template_directory_uri() . '/gfx/BrowZine.png' ?>" />
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -125,11 +125,31 @@
                 
                 </div>
                 
-                <div class="bg-tile-outer col-md-8 col-sm-12">
+                <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
-                        <div class="bg-tile-title">Naglowek</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-3-long.png' ?>" />
+                        <div class="bg-tile-title">Zbiory Specjalne</div>
+                        <img src="<?php echo get_template_directory_uri() . '/gfx/zbiory-spec.png' ?>" />
+                        <div class="bg-tile-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <ul>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li class="more-link"><a href="#">więcej</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="bg-tile-outer col-md-4 col-sm-6">
+                    
+                    <div class="bg-tile">
+                        <div class="bg-tile-title">Godziny otwarcia</div>
+                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-4.png' ?>" />
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -155,7 +175,7 @@
         
             <div class="bg-sidebar-button">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri() . '/gfx/blank.png' ?>" />
+                    <img src="<?php echo get_template_directory_uri() . '/gfx/ppm.png' ?>" />
                 </a>
             </div>
             

@@ -114,7 +114,7 @@ ul#menu-frontpagemenu > li{
 }
 
 ul#menu-frontpagemenu > li > a{
-    color: #eb1c21;
+    color: #a21b21;
     text-transform: uppercase;
     padding: 3px 0px;
 }
@@ -141,17 +141,17 @@ ul#menu-frontpagemenu > li > a{
     /*background-color: greenyellow;*/
     padding: 0;
     /*height: 100px;*/
-    border: .1rem solid #5d6769;
+    border: .1rem solid #e0e2e3;
     border-radius: .1rem;
     /*background-color: #e0e2e3;*/
 }
 
 .bg-tile-title{
-    background-color: #5d6769;
+    background-color: #e0e2e3;
     height: 2em;
     /*    display: table-cell;*/
     vertical-align: middle;
-    color: #ffffff;
+    color: #a21b21;
     padding-left: 1em;
     line-height: 2em;
 }
