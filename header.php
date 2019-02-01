@@ -18,8 +18,9 @@
                     <div class="col-7">
 
                         <div class="row bg-logo">
-
-                            <img src="<?php echo get_template_directory_uri() . '/gfx/logo-bgumw-color.png' ?>">
+                            <a href="<?php echo get_home_url(); ?>">
+                                <img src="<?php echo get_template_directory_uri() . '/gfx/logo-bgumw-color.png' ?>">
+                            </a>
 
                         </div>
 
