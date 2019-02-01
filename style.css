@@ -29,7 +29,8 @@ ul#menu-topmenu > li {
 }
 
 ul#menu-topmenu > li > a{
-    color: gray;
+    color: #a21b21;
+    font-size: 1.2em;
     padding: 0;
 }
 
@@ -92,10 +93,16 @@ ul#menu-mainmenu > li > ul > li > a:hover{
     width: 275px;
 }
 
-.bg-slider-baner{
-   
-    
+#bg-sidebar-group{
+    background-color: #e0e2e3;
+    text-align: center;
 }
+
+#bg-sidebar-group img{
+    max-width: 80%;
+}
+
+.bg-slider-baner{}
 
 .carousel-item > img, .carousel-item{
     width: 855px;

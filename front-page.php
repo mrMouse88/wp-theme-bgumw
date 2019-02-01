@@ -34,13 +34,13 @@
                             </nav>
             </div>
             
-            <!--początek primo-->
+            <!--start primo-->
             <div id="bg-primo" class="row ml-0">
                                 
                 <?php echo do_shortcode("[iframe src='http://156.17.100.83/primo' width='100%' height='100%' scrolling='no']"); ?>
 
             </div>
-            <!-- koniec primo -->
+            <!-- end primo -->
             
             <div id="bg-tiles-box" class="row">
             
@@ -50,12 +50,13 @@
                         <div class="bg-tile-title">Aktualności</div>
                         <img src="<?php echo get_template_directory_uri() . '/gfx/cat-1.png' ?>" />
                         <div class="bg-tile-content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nasze aktualności
                             <ul>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
+                            <?php if(have_posts()) : while(have_posts()) : the_post();?>
+                                
+                                <li><a href="<?php the_permalink();?>"><?php the_title();?></a></li>
+                                
+                            <?php endwhile; endif;?>
                                 <li class="more-link"><a href="#">więcej</a></li>
                             </ul>
                             
@@ -191,16 +192,16 @@
                 </a>
             </div>
             
-            <div class="bg-sidebar-button">
+            <div id="bg-sidebar-group">
+                
                 <a href="http://opac.bg.umed.wroc.pl" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/opac.png' ?>" />
                 </a>
-            </div>
-            
-            <div class="bg-sidebar-button">
+                
                 <a href="#">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/wykaz-podrecznikow.png' ?>" />
                 </a>
+                
             </div>
         
         </div>
