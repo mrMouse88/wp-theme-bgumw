@@ -11,6 +11,16 @@ body{
     color: gray;
 }
 
+a {
+    color: #a21b21;    
+}
+
+a:hover{
+    color: #a21b21;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* ------------ Header ------------ */
 
 .bg-topmenu{
@@ -181,13 +191,35 @@ ul#menu-frontpagemenu > li > a{
 
 .bg-tile-content > ul > li{
     list-style-type: none;
+    padding-bottom: 5px;
 }
 
 li.more-link{
     text-align: right;
 }
 
+/* ------------ Archive Page ------------ */
+.btn-info{
+    background: #e0e2e3;
+    color: #a21b21;
+    border: none;
+}
 
+.btn-info:hover{
+    background: #a21b21;
+    color: #e0e2e3;
+    border: none;
+    font-weight: normal;
+}
+
+.attachment-thumbnail{
+    margin-right: 0.5em;
+}
+
+.bg-post-date{
+    font-size: 0.7em;
+    /*color: lightgray;*/
+}
 /* ------------ Footer ------------ */
 
 .bg-footer{
