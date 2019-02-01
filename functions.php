@@ -44,6 +44,9 @@ add_action('wp_enqueue_scripts', 'load_js');
 // Add menu support in admin
 add_theme_support('menus');
 
+// Add thumbnails support in posts
+add_theme_support( 'post-thumbnails' );
+
 // Register menu locations
 register_nav_menus(
         array(
