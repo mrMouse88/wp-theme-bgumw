@@ -181,7 +181,7 @@
         
         </div>
 
-        <div class="col-md-3 bg-sidebar p-0">
+        <div class="col-md-3 col-sm-12 bg-sidebar p-0">
         
             <div class="bg-sidebar-button">
                 <a href="#">
@@ -202,15 +202,9 @@
             </div>
             
             <div id="bg-sidebar-group">
-                
-                <a href="http://opac.bg.umed.wroc.pl" target="_blank">
-                    <img src="<?php echo get_template_directory_uri() . '/gfx/opac.png' ?>" />
-                </a>
-                
-                <a href="#">
-                    <img src="<?php echo get_template_directory_uri() . '/gfx/wykaz-podrecznikow.png' ?>" />
-                </a>
-                
+                               
+                <?php dynamic_sidebar( 'right-sidebar' ); ?>
+
             </div>
         
         </div>

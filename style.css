@@ -109,7 +109,13 @@ ul#menu-mainmenu > li > ul > li > a:hover{
 }
 
 #bg-sidebar-group img{
-    max-width: 80%;
+    max-width: 80% !important;
+    padding-top: 5px;
+}
+
+#bg-sidebar-group li{
+    list-style: none;
+    padding-bottom: 5px;
 }
 
 .bg-slider-baner{}

@@ -64,3 +64,7 @@ function load_google_fonts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'load_google_fonts' );
+
+//Add sidebar
+register_sidebars( 1, array( 'name' => 'right-sidebar',
+                                'class'         => 'bg-sidebar') );
