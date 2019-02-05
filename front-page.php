@@ -184,13 +184,13 @@
         <div class="col-md-3 col-sm-12 bg-sidebar p-0">
         
             <div class="bg-sidebar-button">
-                <a href="#">
+                <a href="http://www.ppm.edu.pl">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/ppm.png' ?>" />
                 </a>
             </div>
             
             <div class="bg-sidebar-button">
-                <a href="#">
+                <a href="http://156.17.100.83/bgumw/?page_id=129">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/id.png' ?>" />
                 </a>
             </div>
