@@ -47,8 +47,10 @@
                 <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
-                        <div class="bg-tile-title">Aktualności</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-1.png' ?>" />
+                        <a href="<?php echo esc_url(get_category_link(get_cat_ID('aktualnosci'))); ?>">
+                            <div class="bg-tile-title">Aktualności</div>
+                            <img src="<?php echo get_template_directory_uri() . '/gfx/Aktualnosci.png' ?>" />
+                        </a>
                         <div class="bg-tile-content">
                             
                             <ul>
@@ -159,7 +161,7 @@
                     
                     <div class="bg-tile">
                         <div class="bg-tile-title">Godziny otwarcia</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-4.png' ?>" />
+                        <img src="<?php echo get_template_directory_uri() . '/gfx/Godziny_otwarcia.png' ?>" />
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -184,7 +186,7 @@
         <div class="col-md-3 col-sm-12 bg-sidebar p-0">
         
             <div class="bg-sidebar-button">
-                <a href="http://www.ppm.edu.pl">
+                <a href="http://www.ppm.edu.pl" target="_blank">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/ppm.png' ?>" />
                 </a>
             </div>
