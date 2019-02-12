@@ -49,7 +49,7 @@
                     <div class="bg-tile">
                         <a href="<?php echo esc_url(get_category_link(get_cat_ID('aktualnosci'))); ?>">
                             <div class="bg-tile-title">Aktualności</div>
-                            <img src="<?php echo get_template_directory_uri() . '/gfx/Aktualnosci.png' ?>" />
+                            <img src="<?php echo get_template_directory_uri() . '/gfx/aktualnosci.png' ?>" />
                         </a>
                         <div class="bg-tile-content">
                             
@@ -101,7 +101,7 @@
                     
                     <div class="bg-tile">
                         <div class="bg-tile-title">Warsztaty</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-2.png' ?>" />
+                        <img src="<?php echo get_template_directory_uri() . '/gfx/Warsztaty.png' ?>" />
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -205,7 +205,7 @@
             
             <div id="bg-sidebar-group">
                                
-                <?php dynamic_sidebar( 'right-sidebar' ); ?>
+                <?php dynamic_sidebar( 'sidebar-front' ); ?>
 
             </div>
         

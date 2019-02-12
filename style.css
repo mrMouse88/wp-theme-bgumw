@@ -118,6 +118,10 @@ ul#menu-mainmenu > li > ul > li > a:hover{
     padding-bottom: 5px;
 }
 
+.bg-sidebar-category{
+    border-radius: .25rem;
+}
+
 .bg-slider-baner{}
 
 .carousel-item > img, .carousel-item{
@@ -229,7 +233,8 @@ li.more-link{
 /* ------------ Footer ------------ */
 
 .bg-footer{
-    width: auto;
+    position: absolute;
+    width: 100%;
     margin-top: 2em;
     background-color: #e0e2e3;
     /* color: #ffffff; */

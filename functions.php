@@ -66,5 +66,11 @@ function load_google_fonts() {
 add_action( 'wp_enqueue_scripts', 'load_google_fonts' );
 
 //Add sidebar
-register_sidebars( 1, array( 'name' => 'right-sidebar',
+register_sidebars( 1, array( 'name' => 'sidebar-front',
+                                'class'         => 'bg-sidebar') );
+
+register_sidebars( 1, array( 'name' => 'sidebar-studenci',
+                                'class'         => 'bg-sidebar') );
+
+register_sidebars( 1, array( 'name' => 'sidebar-doktoranci',
                                 'class'         => 'bg-sidebar') );

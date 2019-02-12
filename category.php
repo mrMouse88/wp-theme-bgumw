@@ -22,17 +22,7 @@
         <a href="<?php the_permalink();?>" class="btn btn-info">Czytaj więcej</a>
     </div>
     <?php endwhile; endif;?>
-    <div id="bg-sidebar-group">
 
-        <?php if ( !is_active_sidebar ('sidebar-archive' ) ) { ?>
-        test
-    <ul id="sidebar">
-        
-        <?php dynamic_sidebar( 'sidebar-archive' ); ?>
-    </ul>
-<?php } ?>
-
-            </div>
 </div>
 
 <?php get_footer();?>
