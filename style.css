@@ -21,6 +21,10 @@ a:hover{
     font-weight: bold;
 }
 
+h1{
+    font-size: 1.7em;
+}
+
 /* ------------ Header ------------ */
 
 .bg-topmenu{
