@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div class="container pt-5 pb-5">
+<div class="container pt-5">
     
     <h1><?php 
     if ( has_post_thumbnail() ) {

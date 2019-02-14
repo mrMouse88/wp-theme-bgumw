@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<div class="container pt-5 pb-5">
+<div class="container pt-5">
     
     <h1><?php single_cat_title();?></h1>
     

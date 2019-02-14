@@ -1,7 +1,7 @@
 function checkHeight() {
     var windowHeight = $(window).height();
     var bodyHeight = $("body").height();
-    if (bodyHeight < windowHeight) {
+    if (bodyHeight+150 < windowHeight) {
         $(".bg-footer").css('bottom', 0);
     } else {
         $(".bg-footer").css('bottom', 'auto');
