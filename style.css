@@ -290,12 +290,20 @@ li.more-link{
     max-width: 1140px;
     padding: 0px;
     display: inline-flex;
+    margin-bottom: 0;
 }
 
 #bg-footer-menu li{
     list-style: none;
     width: 25%;
     padding: 10px;
+}
+
+#bg-footer-copyrights{
+    /*border-top: 1px solid gray;*/
+}
+.bg-footer-copyrights-text{
+    padding-top: 1.4em;
 }
 
 /* ------------ RWD ------------ */

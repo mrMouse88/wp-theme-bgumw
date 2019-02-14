@@ -192,7 +192,7 @@
             </div>
             
             <div class="bg-sidebar-button">
-                <a href="http://156.17.100.83/bgumw/index.php/orcid/">
+                <a href="<?php echo get_site_url(); ?>/index.php/orcid/">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/id.png' ?>" />
                 </a>
             </div>
