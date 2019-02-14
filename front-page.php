@@ -140,16 +140,27 @@
                 <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
+                        <a href="<?php echo esc_url(get_category_link(12)); ?>">
                         <div class="bg-tile-title">Zbiory Specjalne</div>
                         <img src="<?php echo get_template_directory_uri() . '/gfx/zbiory-spec.png' ?>" />
+                        </a>
                         <div class="bg-tile-content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            <ul>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li class="more-link"><a href="#">więcej</a></li>
+                           <ul>
+                                <?php
+                                global $post;
+                                $args = array('category' => 'zbiory-specjalne', 'posts_per_page' => 4);
+
+                                $myposts = get_posts($args);
+                                foreach ($myposts as $post) : setup_postdata($post);
+                                    ?>
+                                    <li>
+                                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                    </li>
+                                <?php endforeach;
+                                wp_reset_postdata();
+                                ?>
+
+                                <li class="more-link"><a href="<?php echo esc_url(get_category_link(12)); ?>">więcej</a></li>
                             </ul>
                             
                         </div>
