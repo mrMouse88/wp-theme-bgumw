@@ -88,6 +88,12 @@ ul#menu-mainmenu > li > ul > li > a:hover{
     background: none;
 }
 
+/* ------------ Pages ------------ */
+
+#bg-map{
+    height: 450px;
+}
+
 /* ------------ Front Page ------------ */
 
 .bg-main-conteiner{
@@ -291,6 +297,8 @@ li.more-link{
     width: 25%;
     padding: 10px;
 }
+
+/* ------------ RWD ------------ */
 
 @media only screen and (max-width: 1200px) {
 
