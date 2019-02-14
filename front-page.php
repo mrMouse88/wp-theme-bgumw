@@ -148,7 +148,7 @@
                            <ul>
                                 <?php
                                 global $post;
-                                $args = array('category' => 'zbiory-specjalne', 'posts_per_page' => 4);
+                                $args = array('category' => 12, 'posts_per_page' => 4);
 
                                 $myposts = get_posts($args);
                                 foreach ($myposts as $post) : setup_postdata($post);
