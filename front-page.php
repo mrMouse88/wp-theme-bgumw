@@ -209,7 +209,7 @@
             </div>
             
             <div class="bg-sidebar-button">
-                <a href="http://bg.umed.wroc.pl/mendeley" target="_blank">
+                <a href="<?php echo esc_url(get_category_link(14)); ?>">
                     <img src="<?php echo get_template_directory_uri() . '/gfx/mendeley.png' ?>" />
                 </a>
             </div>
