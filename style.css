@@ -94,6 +94,46 @@ ul#menu-mainmenu > li > ul > li > a:hover{
     height: 450px;
 }
 
+.bg-table-mendeley{
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.bg-table-mendeley td{
+    border: 1px solid gray;
+    width: 33%;
+    padding: 0.6em;
+    text-align: center;
+}
+
+.bg-table-mendeley thead{
+    font-weight: bold;
+    background: gray;
+    color: white;
+}
+
+#bg-mendeley-content_section{
+    
+}
+
+#bg-mendeley-text-box{
+    
+}
+
+#bg-mendeley-contact-left{
+    width: 43%;
+    position: relative;
+    float: left;
+    line-height: 2;
+}
+
+#bg-mendeley-contact-right{
+    width: 55%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
 /* ------------ Front Page ------------ */
 
 .bg-main-conteiner{
@@ -185,7 +225,7 @@ ul#menu-frontpagemenu > li > a{
 
 .bg-tile-title{
     background-color: #e0e2e3;
-    height: 2em;
+    /*height: 2em;*/
     /*    display: table-cell;*/
     vertical-align: middle;
     color: #a21b21;
@@ -194,8 +234,11 @@ ul#menu-frontpagemenu > li > a{
 }
 
 .bg-tile img{
-    width: 100%;
+    max-width: 75px;
+    max-height: 75px;
+    width: auto;
     height: auto;
+    margin-right: 1em;
 }
 
 .bg-tile-content{
@@ -246,6 +289,7 @@ li.more-link{
     cursor: pointer;
     font-size: 1.1em;
     color: #a21b21;
+    padding-right: 35px;
     
 }
 
@@ -291,6 +335,7 @@ li.more-link{
     padding: 0px;
     display: inline-flex;
     margin-bottom: 0;
+    font-size: 1rem;
 }
 
 #bg-footer-menu li{

@@ -48,8 +48,8 @@
                     
                     <div class="bg-tile">
                         <a href="<?php echo esc_url(get_category_link(get_cat_ID('aktualnosci'))); ?>">
-                            <div class="bg-tile-title">Aktualności</div>
-                            <img src="<?php echo get_template_directory_uri() . '/gfx/aktualnosci.png' ?>" />
+                            <div class="bg-tile-title"><img src="<?php echo get_template_directory_uri() . '/gfx/aktualnosci-min.png' ?>" />Aktualności</div>
+                            
                         </a>
                         <div class="bg-tile-content">
                             
@@ -79,8 +79,8 @@
                 <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
-                        <div class="bg-tile-title">Browzine</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/BrowZine.png' ?>" />
+                        <div class="bg-tile-title"><img src="<?php echo get_template_directory_uri() . '/gfx/browzine-min.png' ?>" />Browzine</div>
+                        
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -100,8 +100,8 @@
                 <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
-                        <div class="bg-tile-title">Warsztaty</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/Warsztaty.png' ?>" />
+                        <div class="bg-tile-title"><img src="<?php echo get_template_directory_uri() . '/gfx/warsztaty-min.png' ?>" />Warsztaty</div>
+                       
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -120,8 +120,8 @@
                 <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
-                        <div class="bg-tile-title">Pokoje pracy</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/cat-4.png' ?>" />
+                        <div class="bg-tile-title"><img src="<?php echo get_template_directory_uri() . '/gfx/pokoje-min.png' ?>" />Pokoje pracy</div>
+                        
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -141,8 +141,8 @@
                     
                     <div class="bg-tile">
                         <a href="<?php echo esc_url(get_category_link(12)); ?>">
-                        <div class="bg-tile-title">Zbiory Specjalne</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/zbiory-spec.png' ?>" />
+                        <div class="bg-tile-title"><img src="<?php echo get_template_directory_uri() . '/gfx/zbiory-min.png' ?>" />Zbiory Specjalne</div>
+                        
                         </a>
                         <div class="bg-tile-content">
                            <ul>
@@ -171,8 +171,8 @@
                 <div class="bg-tile-outer col-md-4 col-sm-6">
                     
                     <div class="bg-tile">
-                        <div class="bg-tile-title">Godziny otwarcia</div>
-                        <img src="<?php echo get_template_directory_uri() . '/gfx/Godziny_otwarcia.png' ?>" />
+                        <div class="bg-tile-title"><img src="<?php echo get_template_directory_uri() . '/gfx/godziny-min.png' ?>" />Godziny otwarcia</div>
+                        
                         <div class="bg-tile-content">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             <ul>
@@ -204,7 +204,7 @@
             
             <div class="bg-sidebar-button">
                 <a href="<?php echo get_site_url(); ?>/index.php/orcid/">
-                    <img src="<?php echo get_template_directory_uri() . '/gfx/id.png' ?>" />
+                    <img src="<?php echo get_template_directory_uri() . '/gfx/ORCID.png' ?>" />
                 </a>
             </div>
             
